@@ -7,9 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RobotSpringDemoApplication {
 
 	public static void main(String[] args) {
-	//Створити проєкт та контролер, який повертає тестову колекцію класу студент. Сервіс повинен
-	// створити цю колекцію та повернути її. З контролеру буде викликатися тестовий сервіс
-
+//		Створити програму з уроку 37 використовуючи hibernate.
+//		Завдання із заняття 37:
+//		Встановити Mysql та створити 2 таблиці: місто та країна. додаткові поля підібрати
+//		самостійно. Зробити між ними зв'язок один до багатьох.  Заповнити ці таблиці кількома
+//		записами.
 		SpringApplication.run(RobotSpringDemoApplication.class, args);
 	}
 
